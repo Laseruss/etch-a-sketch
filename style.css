@@ -1,0 +1,20 @@
+.grid {
+  display: flex;
+  flex-direction: column;
+  height: 320px;
+  width: 320px;
+}
+
+.row {
+  display: flex;
+  border-top: 1px solid black;
+  height: 20px;
+  width: 100%;
+}
+
+.col {
+  display: flex;
+  border-left: 1px solid black;
+  height: 20px;
+  width: 20px;
+}
